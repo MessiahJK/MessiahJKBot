@@ -9,7 +9,9 @@ import (
 	"github.com/Logiase/MiraiGo-Template/utils"
 
 	_ "github.com/Logiase/MiraiGo-Template/modules/logging"
+	_ "messiahJKBot/image"
 )
+
 func init() {
 	utils.WriteLogToFS()
 	config.Init()
